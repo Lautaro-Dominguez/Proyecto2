@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: rgb(194, 213, 241);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    font-size: 20px;
+    font-family:  'Work Sans', sans-serif;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    z-index: 1;
+}
+
+.wpp{
+    width: 75px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+body{
+    background-image: url(./OPSEG70.jpg);
+}
+
+.sobrenos{
+    background-color: rgb(194, 213, 241);
+    border: solid black 1px;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 15px;
+    width: 400px;
+    margin:30px;
+}
+
+section{
+    display:flex;
+}
+
+.sobrenostexto{
+    background-color:rgb(194, 213, 241) ;
+    border: solid black 1px;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 15px;
+    width: 700px;
+    margin: 30px;
+
+}
+.imagen1{
+    display: block;
+    margin: auto;
+    width: 450px;
+
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    margin: 15px;
+    list-style: none;
+}
+
+.producto li{
+    list-style: none;
+    background-color: white;
+}
+
+.productos li{
+    list-style: none;
+    background-color: white;
+}
+
+
+.preciotexto{
+    background-color: white;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.productotexto{
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.titulosfooter{
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+}
+
+.textosfooter{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+}
+
+footer{
+    justify-content: left;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(194, 213, 241);
+
+}
+
+.footerul{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+#rayas{
+    display: block;
+}
+
+@media only screen and (min-width:768px){
+    #rayas{
+        display:none
+    }    
+}
+
+.producto:hover{
+    transform: scale(1.01);
+}
